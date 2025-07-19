@@ -1,0 +1,1516 @@
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 30
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 30
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 30
+)
+Array
+(
+)
+Array
+(
+    [id_akun] => 30
+)
+Array
+(
+    [id_akun] => 30
+)
+Array
+(
+    [id_akun] => 30
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 31
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 30
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 29
+)
+Array
+(
+    [id_akun] => 29
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 30
+)
+Array
+(
+    [id_akun] => 30
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 29
+)
+Array
+(
+    [id_akun] => 29
+)
+Array
+(
+    [id_akun] => 29
+)
+Array
+(
+    [id_akun] => 29
+)
+Array
+(
+    [id_akun] => 29
+)
+Array
+(
+    [id_akun] => 29
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 30
+)
+Array
+(
+    [id_akun] => 30
+)
+Array
+(
+    [id_akun] => 30
+)
+Array
+(
+    [id_akun] => 30
+)
+Array
+(
+    [id_akun] => 30
+)
+Array
+(
+    [id_akun] => 30
+)
+Array
+(
+    [id_akun] => 30
+)
+Array
+(
+    [id_akun] => 30
+)
+Array
+(
+    [id_akun] => 30
+)
+Array
+(
+    [id_akun] => 30
+)
+Array
+(
+    [id_akun] => 30
+)
+Array
+(
+    [id_akun] => 30
+)
+Array
+(
+    [id_akun] => 30
+)
+Array
+(
+    [id_akun] => 32
+)
+Array
+(
+    [id_akun] => 32
+)
+Array
+(
+    [id_akun] => 32
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 34
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 32
+)
+Array
+(
+    [id_akun] => 32
+)
+Array
+(
+    [id_akun] => 35
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 36
+)
+Array
+(
+    [id_akun] => 37
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 38
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 39
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 40
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 40
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 38
+)
+Array
+(
+    [id_akun] => 41
+)
+Array
+(
+    [id_akun] => 41
+)
+Array
+(
+    [id_akun] => 41
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 41
+)
+Array
+(
+    [id_akun] => 41
+)
+Array
+(
+    [id_akun] => 41
+)
+Array
+(
+    [id_akun] => 41
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+)
+Array
+(
+    [id_akun] => 1
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 41
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 41
+)
+Array
+(
+    [id_akun] => 42
+)
+Array
+(
+    [id_akun] => 42
+)
+Array
+(
+    [id_akun] => 42
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 43
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 45
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)
+Array
+(
+    [id_akun] => 23
+)

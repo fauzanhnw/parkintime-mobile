@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oops! Halaman Tidak Ditemukan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="text-center">
+        <img src="https://app.parkintime.web.id/img/furina%20aw_waifu2x_art_noise1_scale.png" alt="Ekspresi Lucu" class="mx-auto mb-4 w-48 h-48">
+        <h1 class="text-4xl font-bold text-gray-800 mb-2">Oops! Halaman Tidak Ditemukan</h1>
+        <p class="text-lg text-gray-600 mb-4">Sepertinya halaman yang kamu cari telah menghilang ke dunia lain...</p>
+    </div>
+</body>
+</html>

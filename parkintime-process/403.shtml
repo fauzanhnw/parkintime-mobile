@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akses Ditolak</title>
+    <link rel="icon" type="image/png" href="https://app.parkintime.web.id/img/Screenshot_2024-12-29_204058-removebg-preview_waifu2x_art_noise1_scale.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-red-100 flex items-center justify-center h-screen">
+    <div class="text-center">
+        <img src="https://app.parkintime.web.id/img/Screenshot_2024-12-29_204058-removebg-preview_waifu2x_art_noise1_scale.png" alt="Ekspresi Marah Lucu" class="mx-auto mb-4 w-48 h-48">
+        <h1 class="text-4xl font-bold text-red-800 mb-2">Maaf, Aksesmu Ditolak</h1>
+        <p class="text-lg text-red-600 mb-4">Ups! Sepertinya kamu mencoba masuk ke tempat terlarang! 🔒</p>
+    </div>
+</body>
+</html>
