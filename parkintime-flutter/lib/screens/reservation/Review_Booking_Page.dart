@@ -12,7 +12,7 @@ class ReviewBookingPage extends StatefulWidget {
   final String date;
   final String duration;
   final String hours;
-  final int total_price;
+  final int total_price; // This is now treated as the subtotal for parking
   final String vehiclePlate;
   final int pricePerHour;
 
@@ -41,8 +41,12 @@ class _ReviewBookingPageState extends State<ReviewBookingPage> {
   bool _isCreatingOrder = false;
   String? _idAkun;
 
+  // NEW: State variables for service fee and the final total price
+  int _serviceFee = 0;
+  int _finalTotalPrice = 0;
+
   final currencyFormatter =
-      NumberFormat.currency(locale: 'id_ID', symbol: 'Rp ', decimalDigits: 0);
+  NumberFormat.currency(locale: 'id_ID', symbol: 'Rp ', decimalDigits: 0);
 
   @override
   void initState() {
@@ -50,7 +54,8 @@ class _ReviewBookingPageState extends State<ReviewBookingPage> {
     _fetchPageDetails();
   }
 
-  // --- LOGIC FUNCTIONS (NO CHANGES) ---
+  // --- LOGIC FUNCTIONS ---
+
   Future<void> _fetchPageDetails() async {
     setState(() {
       _isLoading = true;
@@ -63,9 +68,11 @@ class _ReviewBookingPageState extends State<ReviewBookingPage> {
         throw Exception("User not logged in.");
       }
 
+      // MODIFIED: Fetch all details concurrently, including the service fee
       await Future.wait([
         _fetchLahanDetails(),
         _fetchVehicleDetails(),
+        _fetchServiceFee(), // Fetch the service fee from API
       ]);
     } catch (e) {
       print("Error fetching page details: $e");
@@ -77,9 +84,32 @@ class _ReviewBookingPageState extends State<ReviewBookingPage> {
     } finally {
       if (mounted) {
         setState(() {
+          // NEW: Calculate the final total after all data is fetched
+          _finalTotalPrice = widget.total_price + _serviceFee;
           _isLoading = false;
         });
       }
+    }
+  }
+
+  // NEW: Function to fetch the service fee from an API
+  Future<void> _fetchServiceFee() async {
+    try {
+      // Note: Replace with your actual API endpoint for the service fee
+      final response = await http.get(Uri.parse('https://app.parkintime.web.id/flutter/service_fee.php'));
+      if (response.statusCode == 200 && mounted) {
+        final data = jsonDecode(response.body);
+        // Assuming the API returns a JSON like: {"success": true, "data": {"service_fee": 2000}}
+        if (data['success'] == true && data['data'] != null) {
+          setState(() {
+            // Use tryParse for safety to avoid format errors
+            _serviceFee = int.tryParse(data['data']['service_fee'].toString()) ?? 0;
+          });
+        }
+      }
+    } catch (e) {
+      print("Error fetching service fee: $e");
+      // If the API fails, the service fee remains 0, so the app won't crash.
     }
   }
 
@@ -149,7 +179,8 @@ class _ReviewBookingPageState extends State<ReviewBookingPage> {
         'id_akun': _idAkun,
         'id_slot': widget.kodeslot,
         'id_kendaraan': widget.carid,
-        'biaya_total': widget.total_price.toString(),
+        // MODIFIED: Send the final total price (parking price + service fee)
+        'biaya_total': _finalTotalPrice.toString(),
         'waktu_masuk': waktuMasukForApi,
         'waktu_keluar': waktuKeluarForApi,
       };
@@ -188,7 +219,7 @@ class _ReviewBookingPageState extends State<ReviewBookingPage> {
 
     } catch (e) {
       String errorMessage = e.toString();
-        if (e is FormatException && response != null) {
+      if (e is FormatException && response != null) {
         errorMessage = "Failed to parse JSON. Server Response:\n${response.body}";
       } else if (e is FormatException) {
         errorMessage = "Failed to parse date/time. Input was: '${widget.date} ${widget.hours.split(' - ')[0]}'. Error: ${e.message}";
@@ -210,7 +241,7 @@ class _ReviewBookingPageState extends State<ReviewBookingPage> {
     }
   }
 
-  // --- UI WIDGETS (PERBAIKAN DI SINI) ---
+  // --- UI WIDGETS ---
 
   @override
   Widget build(BuildContext context) {
@@ -237,73 +268,77 @@ class _ReviewBookingPageState extends State<ReviewBookingPage> {
           onPressed: () => Navigator.pop(context),
         ),
       ),
-      // Struktur body tetap sama, karena sudah benar
       body: _isLoading
           ? Center(child: CircularProgressIndicator(color: Color(0xFF629584)))
           : Column(
-              children: [
-                // Konten yang bisa di-scroll
-                Expanded(
-                  child: SingleChildScrollView(
-                    padding: const EdgeInsets.fromLTRB(16, 16, 16, 0), // Hapus padding bawah
-                    child: Container(
-                      padding: const EdgeInsets.all(20), // Padding internal
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(16),
-                        boxShadow: [
-                          BoxShadow(
-                            color: Colors.grey.withOpacity(0.1),
-                            spreadRadius: 1,
-                            blurRadius: 5,
-                            offset: Offset(0, 3),
-                          ),
-                        ],
-                      ),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          _buildSectionTitle("Booking Details"),
-                          const SizedBox(height: 16),
-                          buildDetailRow('Parking Area', parkingArea ?? 'Loading...'),
-                          buildDetailRow('Address', address ?? 'Loading...'),
-                          buildDetailRow('Plate Number', widget.vehiclePlate),
-                          buildDetailRow('Vehicle', vehicleName ?? 'Loading...'),
-                          buildDetailRow('Parking Slot', widget.kodeslot),
-                          buildDetailRow('Date', widget.date),
-                          buildDetailRow('Duration', widget.duration),
-                          buildDetailRow('Hours', widget.hours),
-                          const Padding(
-                            padding: EdgeInsets.symmetric(vertical: 12.0),
-                            child: Divider(),
-                          ),
-                          _buildSectionTitle("Payment Details"),
-                          const SizedBox(height: 16),
-                          buildDetailRow('Price per Hour', currencyFormatter.format(widget.pricePerHour)),
-                          buildDetailRow('Duration', widget.duration),
-                          const SizedBox(height: 8),
-                          const Divider(),
-                          const SizedBox(height: 8),
-                          buildDetailRow(
-                            'Total Payment',
-                            currencyFormatter.format(widget.total_price),
-                            isTotal: true,
-                          ),
-                        ],
-                      ),
+        children: [
+          Expanded(
+            child: SingleChildScrollView(
+              padding: const EdgeInsets.fromLTRB(16, 16, 16, 0),
+              child: Container(
+                padding: const EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(16),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(0.1),
+                      spreadRadius: 1,
+                      blurRadius: 5,
+                      offset: Offset(0, 3),
                     ),
-                  ),
+                  ],
                 ),
-                // Tombol di bawah yang sudah diperbaiki
-                _buildPaymentButton(),
-              ],
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    _buildSectionTitle("Booking Details"),
+                    const SizedBox(height: 16),
+                    buildDetailRow('Parking Area', parkingArea ?? 'Loading...'),
+                    buildDetailRow('Address', address ?? 'Loading...'),
+                    buildDetailRow('Plate Number', widget.vehiclePlate),
+                    buildDetailRow('Vehicle', vehicleName ?? 'Loading...'),
+                    buildDetailRow('Parking Slot', widget.kodeslot),
+                    buildDetailRow('Date', widget.date),
+                    buildDetailRow('Duration', widget.duration),
+                    buildDetailRow('Hours', widget.hours),
+                    const Padding(
+                      padding: EdgeInsets.symmetric(vertical: 12.0),
+                      child: Divider(),
+                    ),
+                    _buildSectionTitle("Payment Details"),
+                    const SizedBox(height: 16),
+                    // MODIFIED: Clarified this line to show it's the parking subtotal
+                    buildDetailRow(
+                      'Parking Price (${widget.duration})',
+                      currencyFormatter.format(widget.total_price),
+                    ),
+                    // NEW: Display the service fee
+                    buildDetailRow(
+                      'Service Fee',
+                      currencyFormatter.format(_serviceFee),
+                    ),
+                    const SizedBox(height: 8),
+                    const Divider(),
+                    const SizedBox(height: 8),
+                    // MODIFIED: Display the final total price
+                    buildDetailRow(
+                      'Total Payment',
+                      currencyFormatter.format(_finalTotalPrice),
+                      isTotal: true,
+                    ),
+                  ],
+                ),
+              ),
             ),
+          ),
+          _buildPaymentButton(),
+        ],
+      ),
     );
   }
 
-  // --- PERBAIKAN UTAMA ADA DI SINI ---
   Widget _buildPaymentButton() {
-    // Container untuk memberikan background putih dan shadow
     return Container(
       decoration: BoxDecoration(
         color: Colors.white,
@@ -315,11 +350,9 @@ class _ReviewBookingPageState extends State<ReviewBookingPage> {
           ),
         ],
       ),
-      // SafeArea akan memastikan isinya tidak tertutup UI sistem
       child: SafeArea(
-        top: false, // Kita hanya butuh safe area untuk bagian bawah
+        top: false,
         child: Padding(
-          // Padding dipindahkan ke dalam SafeArea
           padding: const EdgeInsets.fromLTRB(16, 12, 16, 12),
           child: SizedBox(
             width: double.infinity,
@@ -334,13 +367,13 @@ class _ReviewBookingPageState extends State<ReviewBookingPage> {
               child: _isCreatingOrder
                   ? const CircularProgressIndicator(color: Colors.white, strokeWidth: 3)
                   : const Text(
-                      'Create Order & Continue',
-                      style: TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.white,
-                      ),
-                    ),
+                'Create Order & Continue',
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
         ),
@@ -348,7 +381,6 @@ class _ReviewBookingPageState extends State<ReviewBookingPage> {
     );
   }
 
-  // Helper widget untuk judul seksi
   Widget _buildSectionTitle(String title) {
     return Text(
       title,
@@ -360,7 +392,6 @@ class _ReviewBookingPageState extends State<ReviewBookingPage> {
     );
   }
 
-  // Helper widget untuk baris detail
   Widget buildDetailRow(String title, String value, {bool isTotal = false}) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8.0),
