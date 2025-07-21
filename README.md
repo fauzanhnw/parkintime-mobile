@@ -26,3 +26,5 @@ Folder "parkintime-flutter" berisi source code aplikasi.
 Folder "parkintime-process" berisi proses aplikasi termasuk API untuk di deploy ke server.
 
 File APK untuk instalasi ke perangkat android
+
+File sql untuk database
