@@ -53,7 +53,7 @@ class ParkingLotDetailPage extends StatelessWidget {
         backgroundColor: Color(0xFF629584),
          centerTitle: true, // ✅ Tengahin judul
         title: Text(
-          'location details',
+          'Location Details',
           style: TextStyle(
             fontSize: 20,
             color: Colors.white,
@@ -171,7 +171,7 @@ class ParkingLotDetailPage extends StatelessWidget {
             width: 30,
             height: 30,
           ),
-          label: Text('Rute'),
+          label: Text('Route'),
           style: OutlinedButton.styleFrom(
             foregroundColor: Color(0xFF629584),
             side: BorderSide(color: Color(0xFF629584)),
@@ -192,7 +192,7 @@ class ParkingLotDetailPage extends StatelessWidget {
               MaterialPageRoute(builder: (_) => Reservasionpage()),
             );
           },
-          child: Text('Pesan Sekarang'),
+          child: Text('Book Now'),
           style: ElevatedButton.styleFrom(
             backgroundColor: Color(0xFF629584),
             foregroundColor: Colors.white,
