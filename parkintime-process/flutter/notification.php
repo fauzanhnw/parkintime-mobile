@@ -6,7 +6,7 @@ require_once dirname(__FILE__) . '/midtrans-php-master/Midtrans.php';
 // -----------------------------------------------------------------------------
 // ⚙️ KONFIGURASI MIDTRANS
 // -----------------------------------------------------------------------------
-Midtrans\Config::$serverKey = 'SB-Mid-server-3IGYwrZnj6inRjgWy2LV09Ag'; // Ganti dengan Server Key Anda
+Midtrans\Config::$serverKey = ' '; // Ganti dengan Server Key Anda
 Midtrans\Config::$isProduction = false; // Set true jika sudah di production
 
 // -----------------------------------------------------------------------------

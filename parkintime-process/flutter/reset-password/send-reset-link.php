@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $mail->Host       = 'app.parkintime.web.id';         // GANTI: SMTP Host Anda
             $mail->SMTPAuth   = true;
             $mail->Username   = 'support@app.parkintime.web.id'; // GANTI: Email Anda
-            $mail->Password   = 'H~Nh=?h8)SdhSST?';         // GANTI: Password email Anda
+            $mail->Password   = ' ';         // GANTI: Password email Anda
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;      // GANTI: 'ssl' atau 'tls'
             $mail->Port       = 465;                             // GANTI: 465 untuk SSL, 587 untuk TLS
 

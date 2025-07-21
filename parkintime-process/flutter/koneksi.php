@@ -3,9 +3,9 @@
 // File ini digunakan untuk menyambungkan ke database MySQL
 
 $host     = "localhost";   // Nama host database
-$username = "irunnlvu";        // Username database
-$password = "1.26Z:GoEir5Yj";            // Password database
-$database = "irunnlvu_parkintime"; // Ganti dengan nama database Anda
+$username = " ";        // Username database
+$password = " ";            // Password database
+$database = " "; // Ganti dengan nama database Anda
 
 // Membuat koneksi ke MySQL
 $koneksi = new mysqli($host, $username, $password, $database);
