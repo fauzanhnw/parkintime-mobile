@@ -23,12 +23,13 @@ Manual Book : https://drive.google.com/file/d/1KR0xmDlR8IIcUh-f5hDyHCH3MsB-eD2w/
 
 Folder "parkintime-flutter" berisi source code aplikasi.
 
-# Publish APK
-
-APKPURE : https://apkpure.com/id/parkintime/com.example.parkirtime
-
 Folder "parkintime-process" berisi proses aplikasi termasuk API untuk di deploy ke server.
 
 File APK untuk instalasi ke perangkat android
 
 File sql untuk database
+
+# Publish APK
+
+APKPURE : https://apkpure.com/id/parkintime/com.example.parkirtime
+
