@@ -17,7 +17,7 @@ Anggota Tim:
 
 4342201058 - Cornelisman Gea 
 
-# Panduan Intalasi
+# Panduan Instalasi
 
 Manual Book : https://drive.google.com/file/d/1KR0xmDlR8IIcUh-f5hDyHCH3MsB-eD2w/view?usp=drive_link
 
